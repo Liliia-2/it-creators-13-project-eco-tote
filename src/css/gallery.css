@@ -1,21 +1,26 @@
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
-.section-gallery {
-    padding-block: 32px;
-    padding-inline: 16px;
-    width: 320px;
-    height: 1123px;
+section.section-gallery {
     background: #ebf8ed;
+    padding-top: 32px;
+    /* max-width: 320px;
+    height: 1427px; */
 }
-
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .container-gallery {
-    width: 288px;
-    height: 131px;
+
     text-transform: capitalize;
     text-align: center;
+    background-color: #ebf8ed;
 }
-
 .gallery-title {
     font-weight: 700;
     font-size: 36px;
@@ -26,6 +31,7 @@ ul {
     color: #030a06;
     font-family: "Comfortaa", sans-serif;
     text-align: center;
+    padding-bottom: 16px;
 }
 
 .gallery-description {
@@ -35,4 +41,21 @@ ul {
     line-height: 160%;
     text-align: center;
     color: #030a06;
+}
+.gallery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-self: center;
+    justify-content: center;
+    margin-left: 16px;
+}
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+}
+.gallery-item-view {
+    border-radius: 32px;
+    width: 288px;
+    height: 288px;
 }
