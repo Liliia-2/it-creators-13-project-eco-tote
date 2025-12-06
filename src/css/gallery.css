@@ -1,0 +1,38 @@
+ul {
+    list-style-type: none;
+}
+.section-gallery {
+    padding-block: 32px;
+    padding-inline: 16px;
+    width: 320px;
+    height: 1123px;
+    background: #ebf8ed;
+}
+
+.container-gallery {
+    width: 288px;
+    height: 131px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.gallery-title {
+    font-weight: 700;
+    font-size: 36px;
+    /* line-height: 43px; */
+    line-height: 120%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #030a06;
+    font-family: "Comfortaa", sans-serif;
+    text-align: center;
+}
+
+.gallery-description {
+    font-weight: 400;
+    font-size: 18px;
+    /* line-height: 29px; */
+    line-height: 160%;
+    text-align: center;
+    color: #030a06;
+}
