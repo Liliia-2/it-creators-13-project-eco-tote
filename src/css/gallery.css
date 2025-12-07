@@ -51,7 +51,7 @@ ul {
     padding-block: 0px 32px;
     padding-inline: 0px;
     /* width: 100%; */
-    height: 288px;
+    /* height: 288px; */
 }
 .gallery-item-view {
     border-radius: 32px;
@@ -81,10 +81,20 @@ ul {
         max-width: 100%;
         height: auto;
     }
-    .gallery-item-view:first-child {
+    .gallery-item-view.item-1:first-child {
         order: 4;
+        /* height: 340px; */
     }
-    .gallery-item-view:last-child {
+    .gallery-item-view.item-2 {
+        /* order: 2; */
+        height: 700px;
+    }
+    .gallery-item-view.item-3 {
+        /* order: 3; */
+        height: 700px;
+    }
+    .gallery-item-view.item-4:last-child {
         order: 1;
+        /* height: 340px; */
     }
 }
