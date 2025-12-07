@@ -81,7 +81,7 @@ ul {
         max-width: 100%;
         height: auto;
     }
-    .gallery-item-view.item-1:first-child {
+    .gallery-item.item-1 {
         order: 4;
         /* height: 340px; */
     }
@@ -93,7 +93,7 @@ ul {
         /* order: 3; */
         height: 700px;
     }
-    .gallery-item-view.item-4:last-child {
+    .gallery-item.item-4 {
         order: 1;
         /* height: 340px; */
     }
