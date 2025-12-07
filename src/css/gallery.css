@@ -80,7 +80,9 @@
     }
     .gallery-item.item-1 {
         order: 4;
-        /* height: 340px; */
+    }
+    .gallery-item-view.item-1 {
+        height: 340px;
     }
     .gallery-item-view.item-2 {
         /* order: 2; */
